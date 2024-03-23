@@ -1,6 +1,43 @@
 ﻿@import '@nativescript/theme/css/core.css';
 @import '@nativescript/theme/css/default.css';
 
+/*
+┌──────────────────────────────┬──────────────────────────────────────────────────────────────────────────────────┐
+│ Font                         │ CSS Properties                                                                   │
+│ Poppins-Black.ttf            │ font-family: "Poppins Black", "Poppins-Black"; font-weight: 900;                 │
+│ Poppins-BlackItalic.ttf      │ font-family: "Poppins Black", "Poppins-BlackItalic"; font-weight: 900;           │
+│ Poppins-Bold.ttf             │ font-family: "Poppins", "Poppins-Bold"; font-weight: 700;                        │
+│ Poppins-BoldItalic.ttf       │ font-family: "Poppins", "Poppins-BoldItalic"; font-weight: 700;                  │
+│ Poppins-ExtraBold.ttf        │ font-family: "Poppins ExtraBold", "Poppins-ExtraBold"; font-weight: 800;         │
+│ Poppins-ExtraBoldItalic.ttf  │ font-family: "Poppins ExtraBold", "Poppins-ExtraBoldItalic"; font-weight: 800;   │
+│ Poppins-ExtraLight.ttf       │ font-family: "Poppins ExtraLight", "Poppins-ExtraLight"; font-weight: 275;       │
+│ Poppins-ExtraLightItalic.ttf │ font-family: "Poppins ExtraLight", "Poppins-ExtraLightItalic"; font-weight: 275; │
+│ Poppins-Italic.ttf           │ font-family: "Poppins", "Poppins-Italic"; font-weight: 400;                      │
+│ Poppins-Light.ttf            │ font-family: "Poppins Light", "Poppins-Light"; font-weight: 300;                 │
+│ Poppins-LightItalic.ttf      │ font-family: "Poppins Light", "Poppins-LightItalic"; font-weight: 300;           │
+│ Poppins-Medium.ttf           │ font-family: "Poppins Medium", "Poppins-Medium"; font-weight: 500;               │
+│ Poppins-MediumItalic.ttf     │ font-family: "Poppins Medium", "Poppins-MediumItalic"; font-weight: 500;         │
+│ Poppins-Regular.ttf          │ font-family: "Poppins", "Poppins-Regular"; font-weight: 400;                     │
+│ Poppins-SemiBold.ttf         │ font-family: "Poppins SemiBold", "Poppins-SemiBold"; font-weight: 600;           │
+│ Poppins-SemiBoldItalic.ttf   │ font-family: "Poppins SemiBold", "Poppins-SemiBoldItalic"; font-weight: 600;     │
+│ Poppins-Thin.ttf             │ font-family: "Poppins Thin", "Poppins-Thin"; font-weight: 250;                   │
+│ Poppins-ThinItalic.ttf       │ font-family: "Poppins Thin", "Poppins-ThinItalic"; font-weight: 250;             │
+└──────────────────────────────┴──────────────────────────────────────────────────────────────────────────────────┘
+*/
+
+.poppins-light {
+  font-family: "Poppins Light", "Poppins-Light";
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.actionBar {
+  padding-top: 75px;
+}
+
 Button.-primary {
   font-size: 18;
 }
