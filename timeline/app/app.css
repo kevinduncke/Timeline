@@ -41,3 +41,13 @@
 Button.-primary {
   font-size: 18;
 }
+
+.app-logo {
+  margin: 95px 0 0 0;
+}
+.app-calendar-fl {
+  column-gap: 5px;
+}
+.app-calendar-days {
+  margin: 0 2px;
+}

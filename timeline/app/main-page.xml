@@ -1,19 +1,32 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" actionBarHidden="true">
 
-    <!-- APP LOGO -->
-    <Image src="~/assets/Timeline.png" height="100" width="170"/>
+    <StackLayout>
+        <!-- APP LOGO -->
+        <Image class="app-logo" src="~/assets/Timeline.png" height="100" width="170"/>
 
-    <!-- CALENDAR COMPONENT -->
+        <!-- CALENDAR COMPONENT -->
+        <FlexboxLayout justifyContent="space-between" margin="0 25px">
+            <Button margin="0%" backgroundColor="gray" text="Su" />
+            <Button margin="0%" backgroundColor="gray" text="Mo" />
+            <Button margin="0%" backgroundColor="gray" text="Tu" />
+            <Button margin="0%" backgroundColor="gray" text="We" />
+            <Button margin="0%" backgroundColor="gray" text="Th" />
+            <Button margin="0%" backgroundColor="gray" text="Fr" />
+        </FlexboxLayout>
+
+    </StackLayout>
+
+
 
     <!-- SECTION 1 -->
 
     <!-- SECTION 2 -->
 
     <!-- SECTION 3 -->
-    
-    <StackLayout class="p-20">
-        <Label text="Tap the button" class="h1 text-center" />
+
+    <!-- <StackLayout class="p-20">
+        <Span text="Tap the button" class="h1 text-center" />
         <Button text="TAP" tap="{{ onTap }}" class="-primary" />
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true" />
-    </StackLayout>
+        <Span text="{{ message }}" class="h2 text-center" textWrap="true" />
+    </StackLayout> -->
 </Page>
